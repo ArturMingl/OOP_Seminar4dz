@@ -11,6 +11,12 @@ public class Program1 {
         El<String> str = new El<String>("Some string");
         str.printElement();
 
+        El<Integer> intNum = new El<Integer>(5);
+        intNum.printElement();
+
+        El<Double> dNum = new El<Double>(5.42);
+        dNum.printElement();
+
     }
 
     static class El<T> {
